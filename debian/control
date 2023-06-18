@@ -3,7 +3,7 @@ Section: misc
 Priority: optional
 Maintainer: David Hewitt <davidmhewitt@gmail.com>
 Standards-Version: 3.9.2
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>= 9), dkms
 
 Package: boe-th101mb31ig002-28a-dkms
 Architecture: all
