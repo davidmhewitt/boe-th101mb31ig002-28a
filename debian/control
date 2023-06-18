@@ -1,0 +1,11 @@
+Source: boe-th101mb31ig002-28a-dkms
+Section: misc
+Priority: optional
+Maintainer: David Hewitt <davidmhewitt@gmail.com>
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9)
+
+Package: boe-th101mb31ig002-28a-dkms
+Architecture: all
+Depends: ${misc:Depends}, dkms
+Description: DKMS source for the BOE TH101MB31IG002-28A LCD Panel found in the PineTab2
