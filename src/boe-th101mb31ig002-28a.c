@@ -177,6 +177,12 @@ static int boe_get_modes(struct drm_panel *panel,
 	connector->display_info.width_mm = 216;
 	connector->display_info.height_mm = 135;
 
+	/*
+	 * TODO: Remove once all drm drivers call
+	 * drm_connector_set_orientation_from_panel()
+	 */
+	drm_connector_set_panel_orientation(connector, ctx->orientation);
+
 	return 1;
 }
 
